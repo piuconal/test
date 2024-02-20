@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  margin-top: 80px;
+  color: red;
+}
+
+form {
+  width: 750px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.check {
+  display: flex;
+  gap: 10px;
+}
+.cnt1 {
+  display: flex;
+  gap: 20px;
+}
+
+input {
+  padding: 2px 12px;
+  width: 97%;
+  height: 36px;
+  border-radius: 5px;
+  outline: none;
+  border: 0.5px solid rgb(163, 158, 158);
+}
+select {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: 0.5px solid rgb(163, 158, 158);
+}
+
+button {
+  font-size: 15px;
+  width: 180px;
+  height: 34px;
+  border-radius: 2px;
+  border: 0.5px solid rgb(161, 150, 150);
+}
+
+button:hover {
+  transform: scale(0.97);
+  transition: 0.1s ease-in;
+}
+
+img {
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.dk {
+  position: fixed;
+  background-color: rgb(113, 190, 207);
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  bottom: 50px;
+  right: 100px;
+}
+
+@media (max-width: 415px) {
+  h1 {
+    margin-top: 40px;
+    color: red;
+    font-size: 16px;
+  }
+
+  form {
+    width: 335px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cnt {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .check {
+    display: flex;
+    gap: 10px;
+  }
+  .cnt1 {
+    display: flex;
+    gap: 20px;
+  }
+
+  input {
+    padding: 2px 12px;
+    width: 92%;
+    height: 36px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid rgb(163, 158, 158);
+  }
+  select {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid rgb(163, 158, 158);
+  }
+
+  button {
+    font-size: 15px;
+    width: 180px;
+    height: 34px;
+    border-radius: 2px;
+    border: 0.5px solid rgb(161, 150, 150);
+  }
+
+  button:hover {
+    transform: scale(0.97);
+    transition: 0.1s ease-in;
+  }
+
+  img {
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+  }
+
+  .dk {
+    position: fixed;
+    background-color: rgb(113, 190, 207);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    bottom: 50px;
+    right: 100px;
+  }
+}

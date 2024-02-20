@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký học nghề trực tuyến</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>ĐĂNG KÝ HỌC NGHỀ TRỰC TUYẾN</h1>
+    <form action="">
+      <div class="cnt">
+        <label for="">Họ tên</label>
+        <input type="text" />
+      </div>
+
+      <div class="cnt">
+        <label for="">Ngày sinh</label>
+        <input type="text" />
+      </div>
+
+      <div class="cnt">
+        <label for="">Giới tính</label>
+        <div class="cnt1">
+          <div class="check">
+            <label style="margin-top: 8px" for="">Nam</label>
+            <input type="radio" />
+          </div>
+          <div class="check">
+            <label style="margin-top: 8px" for="">Nữ</label>
+            <input type="radio" />
+          </div>
+        </div>
+      </div>
+
+      <div class="cnt">
+        <label for="">Hộ khẩu</label>
+        <input type="text" />
+      </div>
+
+      <div class="cnt">
+        <label for="">Số CMND/CCCD</label>
+        <input type="text" />
+      </div>
+
+      <div class="cnt">
+        <label for="">Dân tộc</label>
+        <input type="text" />
+      </div>
+
+      <div class="cnt">
+        <label for="">Điện thoại</label>
+        <input type="text" />
+      </div>
+
+      <div class="cnt">
+        <label for="">Email</label>
+        <input type="text" />
+      </div>
+
+      <div class="cnt">
+        <label for="">Tốt nghiệp</label>
+        <input type="text" />
+      </div>
+
+      <div class="cnt">
+        <label for="">Hệ đào tạo</label>
+        <select>
+          <option value="he_trung_cap_nghie">Hệ Trung Cấp Nghề</option>
+          <option value="he_cao_dang_lien_thong">Hệ Cao Đẳng Liên Thông</option>
+          <option value="he_so_cap">Hệ Sơ Cấp</option>
+          <option value="lien_ket_dao_tao">Liên Kết Đào Tạo</option>
+          <option value="cao_dang">Cao Đẳng</option>
+        </select>
+      </div>
+
+      <div class="cnt">
+        <label for="">Nguyện vọng 1</label>
+        <select>
+          <option value="quan_tri_mang_may_tinh">Quản trị mạng máy tính</option>
+          <option value="quan_tri_mang">Quản Trị Mạng</option>
+          <option value="quan_tri_khach_san">Quản Trị Khách Sạn</option>
+          <option value="nuoi_trong_thuy_san">Nuôi Trồng Thuỷ Sản</option>
+          <option value="may">May</option>
+          <option value="ky_thuat_xay_dung">Kỹ Thuật Xây Dựng</option>
+          <option value="ky_thuat_may_lanh_dieu_hoa">
+            Kỹ Thuật Máy Lạnh và Điều Hoà Không Khí
+          </option>
+          <option value="ke_toan_doanh_nghiep">Kế Toán Doanh Nghiệp</option>
+          <option value="han">Hàn</option>
+          <option value="dien_tu_cong_nghiep">Điện Tử Công Nghiệp</option>
+          <option value="dien_cong_nghiep">Điện Công Nghiệp</option>
+        </select>
+      </div>
+
+      <div class="cnt">
+        <label for="">Nguyện vọng 2</label>
+        <select>
+          <option value="quan_tri_mang_may_tinh">Quản trị mạng máy tính</option>
+          <option value="quan_tri_mang">Quản Trị Mạng</option>
+          <option value="quan_tri_khach_san">Quản Trị Khách Sạn</option>
+          <option value="nuoi_trong_thuy_san">Nuôi Trồng Thuỷ Sản</option>
+          <option value="may">May</option>
+          <option value="ky_thuat_xay_dung">Kỹ Thuật Xây Dựng</option>
+          <option value="ky_thuat_may_lanh_dieu_hoa">
+            Kỹ Thuật Máy Lạnh và Điều Hoà Không Khí
+          </option>
+          <option value="ke_toan_doanh_nghiep">Kế Toán Doanh Nghiệp</option>
+          <option value="han">Hàn</option>
+          <option value="dien_tu_cong_nghiep">Điện Tử Công Nghiệp</option>
+          <option value="dien_cong_nghiep">Điện Công Nghiệp</option>
+        </select>
+      </div>
+
+      <div class="cnt">
+        <label for="">Đối tượng tuyển sinh</label>
+        <input type="text" />
+      </div>
+      <div style="display: flex; gap: 20px">
+        <input type="file" id="fileInput1" style="display: none" />
+        <button onclick="document.getElementById('fileInput1').click();">
+          HỌC BẠ
+        </button>
+
+        <input type="file" id="fileInput2" style="display: none" />
+        <button onclick="document.getElementById('fileInput2').click();">
+          BẰNG CẤP
+        </button>
+      </div>
+
+      <button>
+        <span>Đăng ký trực tuyến</span>
+      </button>
+    </form>
+
+    <button class="dk">
+      <span>Đăng ký online tại đây</span>
+    </button>
+    <img src="pic.png" alt="" />
+  </body>
+  <script src="scripts.js"></script>
+</html>
